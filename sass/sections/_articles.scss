@@ -1,6 +1,6 @@
 
 .articles-name {
-    color: #FFF;
+    color: $text-color;
 font-family: Montserrat;
 font-size: 18px;
 font-style: normal;
@@ -9,7 +9,7 @@ line-height: 19px;
 }
 
 .articles-time {
-    color: #FFF;
+    color: $text-color;
 
 font-family: Lato;
 font-size: 13px;
@@ -19,7 +19,7 @@ line-height: 19px;
 }
 
 .articles-title {
-    color: #FFF;
+    color: $text-color;
 
 font-family: Montserrat;
 font-size: 28px;
@@ -30,7 +30,7 @@ line-height: 35px;
 
 .articles-text{
 
-color: #333;
+color: $description-text;
 
 font-family: Lato;
 font-size: 18px;
@@ -40,7 +40,7 @@ line-height: 25px;
 }
 
 .articles-link{
-    color: #8D4FDB;
+    color: $acent-color;
 
 font-family: Lato;
 font-size: 17px;
@@ -53,7 +53,7 @@ line-height: 30px;
     
 width: 132px;
 
-color: #FFF;
+color: $text-color;
 
 text-align: center;
 font-family: Montserrat;
@@ -66,7 +66,7 @@ text-transform: uppercase;
 }
 
 .articles-question {
-    color: #333;
+    color: $description-text;
 
 text-align: center;
 font-family: Montserrat;
@@ -80,4 +80,8 @@ line-height: 36px;
 
 .articles {
     padding-bottom: 99px;
+    background-image: url(../../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }

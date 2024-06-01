@@ -16,13 +16,6 @@ button {
   cursor: pointer;
 }
 
-:root {
-  --text-color:#FFFFFF;
-  --description-text: #333333;
-  --acent-color:#8D4FDB;
-  --additional-color:#F1F1F1;
-}
-
 .container {
   width: 970px;
   margin: 0 auto;
@@ -32,7 +25,7 @@ button {
 }
 
 .header-link {
-  color: var(--text-color);
+  color: #FFFFFF;
   font-family: Montserrat;
   font-size: 11px;
   font-style: normal;
@@ -45,10 +38,13 @@ button {
 .header {
   padding-top: 60px;
   padding-bottom: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .articles-name {
-  color: #FFF;
+  color: #FFFFFF;
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
@@ -57,7 +53,7 @@ button {
 }
 
 .articles-time {
-  color: #FFF;
+  color: #FFFFFF;
   font-family: Lato;
   font-size: 13px;
   font-style: normal;
@@ -66,7 +62,7 @@ button {
 }
 
 .articles-title {
-  color: #FFF;
+  color: #FFFFFF;
   font-family: Montserrat;
   font-size: 28px;
   font-style: normal;
@@ -75,7 +71,7 @@ button {
 }
 
 .articles-text {
-  color: #333;
+  color: #333333;
   font-family: Lato;
   font-size: 18px;
   font-style: normal;
@@ -94,7 +90,7 @@ button {
 
 .articles-button {
   width: 132px;
-  color: #FFF;
+  color: #FFFFFF;
   text-align: center;
   font-family: Montserrat;
   font-size: 10px;
@@ -106,7 +102,7 @@ button {
 }
 
 .articles-question {
-  color: #333;
+  color: #333333;
   text-align: center;
   font-family: Montserrat;
   font-size: 30px;
@@ -117,6 +113,10 @@ button {
 
 .articles {
   padding-bottom: 99px;
+  background-image: url(../../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .stories {
